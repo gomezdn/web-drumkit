@@ -1,0 +1,50 @@
+#keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-image: url("background-img/fondo.png");
+    width: 557px;
+    height: 322px;
+    position: relative;
+    margin: 12% 15% 15% 30%;
+    opacity: 0.9;
+}
+
+#keys div {
+    margin: 0 5% 0 5%;
+    width: 80px;
+    height: 80px;
+    opacity: 0.7;
+    scale: 0.9;
+    border: 3px solid grey;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.inst {
+    font-family: 'Hina Mincho', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: pink;
+}
+
+.char {
+    font-family: 'Hina Mincho', serif;
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+    color: rgb(68, 68, 68);
+}
+
+.playing {
+    scale: 1;
+    opacity: 1;
+    border: 3px solid darkgoldenrod;
+}
+
