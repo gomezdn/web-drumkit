@@ -3,32 +3,29 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Interactive Drum Kit</title>
+    <title>Interactive Drumkit</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js' defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet"> 
 </head>
 <body>
     
-    <div id="main">
-
-        <div id="keys">
-            <div id="kick">
-                <span class="char">S</span>
-                <span class="inst">kick</span>
-            </div>
-            <div id="snare">
-                <span class="char">D</span>
-                <span class="inst">snare</span>
-            </div>
-            <div id="hihat">
-                <span class="char">J</span>
-                <span class="inst">hihat</span>
-            </div>
-
+    <div id="keys">
+        <div data-key="83" class="key">
+            <span class="char">S</span>
+            <span class="inst">kick</span>
         </div>
+        <div data-key="68" class="key">
+            <span class="char">D</span>
+            <span class="inst">snare</span>
+        </div>
+        <div data-key="74" class="key">
+            <span class="char">J</span>
+            <span class="inst">hihat</span>
+        </div>
+
+    </div>
 
         <audio data-key="83" src="sounds/kick.wav"></audio>
         <audio data-key="68" src="sounds/snare.wav"></audio>
