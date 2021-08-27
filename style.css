@@ -1,7 +1,24 @@
 body {
     background-color: rgb(212, 154, 163);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
 }
+
+p {
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
 #keys {
+    user-select: none;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -10,7 +27,8 @@ body {
     width: 557px;
     height: 322px;
     position: relative;
-    margin: 12% 15% 15% 30%;
+    align-self: center;
+    justify-self: center;
     opacity: 0.9;
     border-radius: 10px;
 }
